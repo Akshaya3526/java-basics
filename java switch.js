@@ -1,12 +1,10 @@
 import java.util.Scanner;
-
 public class DaysSwitch {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.println("Enter a number (1 to 7) to get the day of the week:");
         int day = scanner.nextInt();
-
+        
         switch (day) {
             case 1:
                 System.out.println("Sunday");
@@ -32,8 +30,6 @@ public class DaysSwitch {
             default:
                 System.out.println("Invalid input! Please enter a number between 1 and 7.");
         }
-
-        scanner.close();
     }
 }
 
